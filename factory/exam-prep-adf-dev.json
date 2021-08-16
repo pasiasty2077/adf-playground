@@ -1,0 +1,9 @@
+{
+	"name": "exam-prep-adf-dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a94b89bc-03c2-475a-bef9-604917daeaf6",
+		"tenantId": "d689c0ca-b55a-4e4e-9529-731bb9b10969"
+	}
+}
