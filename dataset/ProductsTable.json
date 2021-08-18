@@ -1,5 +1,5 @@
 {
-	"name": "AzureSqlTable1",
+	"name": "ProductsTable",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AdvWorksSqlServer",
