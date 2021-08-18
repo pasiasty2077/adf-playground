@@ -1,0 +1,12 @@
+{
+	"name": "AdvWorksBlob",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=examprepsa00;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkVYQU0tUFJFUC1BREYtREVWXzdmZTZmOTZhLTY0YzAtNDYyMi1iNzc5LTc0MGUzNThiNTQ1MSINCn0="
+		}
+	}
+}
