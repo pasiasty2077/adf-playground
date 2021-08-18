@@ -7,13 +7,13 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "exam-prep-adf-dev"
 		},
-		"AdvWorksSqlServer_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AdvWorksSqlServer'"
-		},
 		"AdvWorksBlob_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AdvWorksBlob'"
+		},
+		"AdvWorksSqlServer_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AdvWorksSqlServer'"
 		},
 		"containerUri": {
 			"type": "string",
@@ -42,11 +42,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"AdvWorksSqlServer_connectionString": {
-						"value": "[parameters('AdvWorksSqlServer_connectionString')]"
-					},
 					"AdvWorksBlob_connectionString": {
 						"value": "[parameters('AdvWorksBlob_connectionString')]"
+					},
+					"AdvWorksSqlServer_connectionString": {
+						"value": "[parameters('AdvWorksSqlServer_connectionString')]"
 					}
 				}
 			},
